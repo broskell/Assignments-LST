@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: #f0f0f0;
+}
+            
+.triangle {
+    padding-top: 300px;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 150px solid black;
+}

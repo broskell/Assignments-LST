@@ -23,10 +23,15 @@ body{
     gap: 20px;
 }
 
+#navbar_1 p:hover{
+    cursor: pointer;
+    color: #65C9BB
+}
+
 #navbar_2 button{
     background-color: #F15B43;
     color: white;
-    border: 1px white;
+    border: 1px #F15B43;
     padding: 0px 20px 0px 20px;
     font-size: 16px;
 }

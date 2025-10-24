@@ -25,7 +25,8 @@ body{
 
 #navbar_1 p:hover{
     cursor: pointer;
-    color: #65C9BB
+    color: #65C9BB;
+    transition: 0.4s;
 }
 
 #navbar_2 button{

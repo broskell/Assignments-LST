@@ -20,3 +20,15 @@ function sum_of_odd_nums(n) {
     }
     return count;
 }
+
+// Checking whether prime number or not //
+let num = 5;
+let sqrt = num ** (1/2);
+
+if (typeof sqrt == "number") {
+  console.log("is not a prime no.");
+} else {
+  console.log("is a prime number");
+}
+
+console.log(sqrt);

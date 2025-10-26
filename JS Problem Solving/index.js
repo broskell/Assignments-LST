@@ -22,13 +22,13 @@ function sum_of_odd_nums(n) {
 }
 
 // Checking whether prime number or not //
-let num = 5;
+let num = 4;
 let sqrt = num ** (1/2);
 
-if (typeof sqrt == "number") {
-  console.log("is not a prime no.");
+if (Number.isInteger(sqrt)) {
+  console.log("whole number");
 } else {
-  console.log("is a prime number");
+  console.log("prime number");
 }
 
 console.log(sqrt);

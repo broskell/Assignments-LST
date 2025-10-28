@@ -10,6 +10,7 @@ for(let i = 1; i <= n; i += 1){
 }
 console.log("answer", answer);
 
+
 // Sum of digits of a number //
 const n = 1234
 const n_string = n.toString()
@@ -20,6 +21,7 @@ for(let i = 0; i < n_string.length; i += 1){
     q = Math.floor(q/10)
 }
 console.log("answer", answer);
+
 
 // Reversing a number //
 let n = 1234
@@ -32,6 +34,7 @@ for(let i = 0; i < n_string.length; i += 1){
     n = Math.floor(n / 10);
 }
 console.log("reversed_string", Number(reversed_string));
+
 
 // Sum of odd numbers using "n" //
 const n = 5
@@ -63,6 +66,7 @@ function isPrime(n) {
 
 console.log(isPrime(n));
 
+
 // GCD //
 const a = 6
 const b = 12
@@ -82,6 +86,7 @@ for(i=0; i < smallest_num; i += 1){
     }
 }
 console.log(gcd)
+
 
 // Fibonacci Series //
 const n = 7;

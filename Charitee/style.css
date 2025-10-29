@@ -4,6 +4,10 @@ body{
     background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg);
 }
 
+p{
+    cursor: pointer;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;

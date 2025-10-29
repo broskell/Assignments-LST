@@ -12,6 +12,12 @@ body{
     height: 70px;
 }
 
+#links {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
 #navbar_1 {
     display: flex;
     flex-grow: 1;
@@ -23,7 +29,7 @@ body{
     gap: 20px;
 }
 
-#navbar_1 p:hover{
+#navbar_1 li:hover{
     cursor: pointer;
     color: #65C9BB;
     transition: 0.4s;

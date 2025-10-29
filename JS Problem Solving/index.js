@@ -44,6 +44,22 @@ for(let i = 0; i < n; i += 1){
 }
 console.log("answer", answer);
 
+// Prime Number's - Girish sir's solution//
+const n5 = 7
+let counter = 0
+for (let i = 1; i <= n5; i += 1){
+    const remainder = n5 % i
+    if (remainder === 0){
+        counter += 1
+    }
+}
+if(counter > 2){
+    console.log("not prime");
+}else{
+    console.log("prime");
+}
+
+// Prime Number's //
 let n = 5;
 
 function isPrime(n) {

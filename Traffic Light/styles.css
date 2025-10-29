@@ -1,10 +1,62 @@
 body{
-    background-color: white;
-}
-
-.box{
-    background-color: black;
-    height: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    gap: 20px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    border: solid grey;
+    background-color: rgb(69, 64, 64);
+}
+
+#red {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.336);
+}
+
+#red:hover {
+    cursor: pointer;
+    background-color: red;
+    transition: 1.5s;
+    filter: brightness(2);
+}
+
+#yellow {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 0, 0.434);
+}
+
+#yellow:hover {
+    cursor: pointer;
+    background-color: yellow;
+    transition: 1.5s;
+    filter: brightness(2);
+}
+
+#green {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: rgba(0, 128, 0, 0.414);
+}
+
+#green:hover {
+    cursor: pointer;
+    background-color: green;
+    transition: 2.9s;
+    filter: brightness(6);
 }

@@ -1,6 +1,6 @@
 body{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg);
 }
 
@@ -38,12 +38,35 @@ body{
 #navbar_2 button{
     background-color: #F15B43;
     color: white;
-    border: 1px #F15B43;
+    border: 1px solid #F15B43;
     padding: 0px 20px 0px 20px;
     font-size: 16px;
 }
 
 #navbar_2 button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 1px solid white;
+}
+
+#content button{
+    position: relative;
+    top: 530px;
+    left: 110px;
+    padding: 24px 41px 24px 41px;
+    background-color: #65C9BB;
+    color: white;
+    border: 1px solid #65C9BB;
+}
+
+#content a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#content button:hover {
     background-color: transparent;
     cursor: pointer;
     transition: all 0.5s;

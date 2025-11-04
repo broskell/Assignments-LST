@@ -2,6 +2,7 @@ body{
     color: white;
     font-family: sans-serif;
     background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg);
+    background-repeat: no-repeat;
 }
 
 p{
@@ -77,4 +78,12 @@ p{
     cursor: pointer;
     transition: all 0.5s;
     border: 1px solid white;
+}
+
+#upcoming_program {
+    position: relative;
+    top: 790px;
+    height: 700px;
+    width: 1500px;
+    background-color: #ffd1ca;
 }

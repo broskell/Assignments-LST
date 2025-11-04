@@ -1,0 +1,49 @@
+#red {
+    position: relative;
+    background-color: red;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+#blue {
+    position: absolute;
+    background-color: skyblue;
+    top: 17px;
+    right: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+#purple {
+    position: relative;
+    background-color: rgb(195, 57, 195);
+    top: 100px;
+    left: 440px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+#yellow {
+    position: absolute;
+    background-color: gold;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+#green {
+    position: absolute;
+    background-color: green;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+}

@@ -31,6 +31,8 @@ function updatedRecords(records, id, prop, value){
     else if (prop === tracks) {
         records[id] = [...records[id].tracks, value]
     }
+
+    return records;
 }
 
 function updatedCollection(records, id, prop, value) {

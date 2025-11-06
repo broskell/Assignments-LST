@@ -1,6 +1,6 @@
 body{
     color: white;
-    font-family: sans-serif;
+    font-family: "Roboto";
     background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg);
     background-repeat: no-repeat;
 }
@@ -57,33 +57,136 @@ p{
     border: 1px solid white;
 }
 
-#content button{
-    position: relative;
-    top: 530px;
-    left: 110px;
+#content {
+    font-family: "Jost";
+    padding-top: 170px;
+    padding-left: 100px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#content p{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#button {
     padding: 24px 41px 24px 41px;
     background-color: #65C9BB;
     color: white;
     border: 1px solid #65C9BB;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
-#content a{
-    color: white;
+a {
     text-decoration: none;
-    font-size: medium;
+    background-color: transparent;
 }
 
-#content button:hover {
+#button:hover {
     background-color: transparent;
     cursor: pointer;
     transition: all 0.5s;
     border: 1px solid white;
 }
 
-#upcoming_program {
-    position: relative;
-    top: 790px;
-    height: 700px;
-    width: 1500px;
-    background-color: #ffd1ca;
+#upcoming-program {
+    margin-top: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF3EB;
+    color: rgb(33, 37, 41);
+    padding: 50px 150px;
+    gap: 120px;
+    line-height: 1.1;
+}
+
+.up-p1 {
+    color: rgb(101, 201, 187);
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.up-h1 {
+    color: rgb(38, 59, 92);
+    display: block;
+    font-family: "Jost", sans-serif;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.up-p2 {
+    color: rgb(119, 119, 119);
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.up-b1 {
+    background-color: rgb(241, 91, 67);
+    color: white;
+    border: 1px solid rgb(241, 91, 67);
+    padding: 20px 30px;
+    font-size: larger;
+    font-weight: 550;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.up-b2 {
+    background-color: transparent;
+    color: rgb(241, 91, 67);
+    border: 1px solid rgb(241, 91, 67);
+    padding: 20px 30px;
+    font-size: larger;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.up-b1:hover {
+    background-color: transparent;
+    color: rgb(241, 91, 67);
+    transition: 0.7s;
+}
+
+.up-b2:hover {
+    background-color: rgb(241, 91, 67);
+    color: white;
+    transition: 0.7s;
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 120px;
+    line-height: 1.1;
+}
+
+#helping-today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 120px;
+    line-height: 1.1;
 }

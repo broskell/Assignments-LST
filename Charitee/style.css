@@ -189,6 +189,7 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: white;
+    gap: 25px;
     margin: 100px 0px 100px 0px;
 }
 
@@ -200,7 +201,6 @@ a {
 .program-card img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
 }
 
 .program-content {
@@ -260,6 +260,67 @@ a {
     padding: 50px 100px;
     gap: 120px;
     line-height: 1.1;
+}
+
+#how-we-help {
+    background-image: url(/Charitee/Assets/section-bg1.jpg.webp);
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 100px 100px 100px;
+    text-align: center;
+}
+
+.help-header {
+    margin-bottom: 60px;
+}
+
+.help-subtitle {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.help-title {
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 48px;
+    font-weight: 550;
+    margin: 0;
+}
+
+.help-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.help-card {
+    flex: 1;
+    max-width: 350px;
+    text-align: center;
+}
+
+.help-icon {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.help-card h3 {
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.help-card p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
 }
 
 #footer {

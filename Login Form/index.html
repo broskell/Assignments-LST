@@ -11,10 +11,10 @@
         <h2>Login Form</h2>
         <form id="loginForm">
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email">
+            <input type="email" id="email" placeholder="Enter your email" required>
     
             <label for="password">Password:</label>
-            <input type="password" id="password" placeholder="Enter your password">
+            <input type="password" id="password" placeholder="Enter your password" required>
     
             <div class="btns">
                 <button type="button" class="submit-btn" onclick="submitForm()">Submit</button>
@@ -22,10 +22,10 @@
             </div>
         </form>
     
-        <div class="output" id="output">
+        <div id="output">
             <h2>Output</h2>
             <br>
-            <p id = "result"></p>
+            <p id = "result">Please enter your credentials!</p>
         </div>
     </div>
 

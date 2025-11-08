@@ -20,3 +20,7 @@ function submitForm() {
         result.textContent = `Email: ${email} \n Password: ${password}`
     }
 }
+
+function resetForm() {
+    result.textContent = "The form has been reset."
+}

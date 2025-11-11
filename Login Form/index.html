@@ -10,11 +10,17 @@
     <div class="form-container">
         <h2>Login Form</h2>
         <form id="loginForm">
+            <label for="text">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Enter your email" required>
     
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="Enter your password" required>
+
+            <label for="text">Description</label>
+            <input type="text" id="description" placeholder="Enter a description" required>
     
             <div class="btns">
                 <button type="button" class="submit-btn" onclick="submitForm()">Submit</button>

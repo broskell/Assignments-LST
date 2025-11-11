@@ -1,12 +1,18 @@
 function submitForm() {
+    let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
+    let description = document.getElementById("description").value;
     let result = document.getElementById("result");
 
-    if (!email || !password) {
+    if (!name || !email || !password || !description) {
         window.alert("Please enter required fields!!")
-        result.textContent = "Please enter both email and password!";
-        console.log("Both Email & Password fields were submitted empty!!");
+        result.textContent = "Please enter the required fields!";
+        console.log("The required fields were submitted empty!!");
+    }
+    else if (name === "") {
+        window.alert("Name field is empty!")
+        result.textContent = "Name field is empty!";
     }
     else if (email === "") {
         window.alert("Email field is empty!")
@@ -16,8 +22,12 @@ function submitForm() {
         window.alert("Password field is empty!")
         result.textContent = "Password field is empty!";
     }
+    else if (description === "") {
+        window.alert("Description field is empty!")
+        result.textContent = "Description field is empty!";
+    }
     else {
-        result.textContent = `Email: ${email} \n Password: ${password}`
+        result.textContent = `Name: ${name}  Email: ${email}  Password: ${password}  Description: ${description}`
     }
 }
 

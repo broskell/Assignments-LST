@@ -27,10 +27,18 @@ function submitForm() {
         result.textContent = "Description field is empty!";
     }
     else {
-        result.textContent = `Name: ${name}  Email: ${email}  Password: ${password}  Description: ${description}`
+        result.textContent = "";
+        document.getElementById("name-display").innerHTML = `<p>Name: ${name}</p>`;
+        document.getElementById("mail-display").innerHTML = `<p>Email: ${email}</p>`;
+        document.getElementById("password-display").innerHTML = `<p>Password: ${password}</p>`;
+        document.getElementById("desc-display").innerHTML = `<p>Description: ${description}</p>`;
     }
 }
 
 function resetForm() {
     result.textContent = "The form has been reset."
+    document.getElementById("name-display").innerHTML = `<p></p>`;
+    document.getElementById("mail-display").innerHTML = `<p></p>`;
+    document.getElementById("password-display").innerHTML = `<p></p>`;
+    document.getElementById("desc-display").innerHTML = `<p></p>`;
 }
